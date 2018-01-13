@@ -4,6 +4,7 @@
   "description": "Initial project to use in other projects",
   "main": "index.js",
   "scripts": {
+	"dev": "http-server ./app -p 9090 -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/marlonklc/project-front-initial/issues"
   },
-  "homepage": "https://github.com/marlonklc/project-front-initial#readme"
+  "homepage": "https://github.com/marlonklc/project-front-initial#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
 }
